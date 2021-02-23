@@ -1,7 +1,8 @@
-.head-color {
-    color: #ad3f14fd
+.introduction-block {
+  width: 1000px;
 }
-
-.second-head-color {
-    color: #346e72
+.introduction-block {
+  color: blue;
+  padding: 8px;
+  margin: 0 auto;
 }
