@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-    <a href = "index.html">Wroc do poczatku</a>
-    <a href = "elements.html">Przejdz dalej</a>
-    <a href = "hot.html">HOT!!!</a>
+  <body>
+    <nav class = "navigation">
+      <a class = "navigation__link navigation__link--homepage" href="index.html">Wroc do poczatku</a>
+      <a class = "navigation__link" href="elements.html">Przejdz dalej</a>
+      <a class = "navigation__link" href="hot.html">HOT!!!</a>
+    </nav>
     <main>
-        <header> 
-            <h1 class = 'head-color'>Dariusz Sańczyk - strona domowa</h1> 
-        </header>
-    <section>
-        <h2 class = 'second-head-color'>Kim Jestem?</h2>
-        <p> Nazywam sie major Dariusz i mam stopien majora. Poza tym jestem mezem najlepszej zony w Podlaskiem - Izabeli </p>
-    </section>
-    <section>
-        <h2 class = 'second-head-color'>  Co ja tu robie?  </h2>
+      <header>
+        <h1 class="introduction-heading">Dariusz Sańczyk - strona domowa</h1>
+      </header>
+      <section>
+        <h2 class="introduction">Kim Jestem?</h2>
+        <p class="introduction__description">
+          Nazywam sie major Dariusz i mam stopien majora. Poza tym jestem mezem
+          najlepszej zony w Podlaskiem - Izabeli
+        </p>
+      </section>
+      <section>
+        <h2 class="introduction">Co ja tu robie?</h2>
         <article>
-            <h3>Ucze sie HTML i CSS</h3>
-            <p>Ucze sie odstaw HTML i CSS poniewaz nie mam bladego pojecia ocb. Potzrebuje tych informacji zeby dalej zglebiac wiedze na temat pracy w JavaScripcie</p>
+          <h3>Ucze sie HTML i CSS</h3>
+          <p class="introduction__description">
+            Ucze sie odstaw HTML i CSS poniewaz nie mam bladego pojecia ocb.
+            Potzrebuje tych informacji zeby dalej zglebiac wiedze na temat pracy
+            w JavaScripcie
+          </p>
         </article>
-        <article> 
-            <h3>Ucze sie JS</h3>
-            <p>Ucze sie JS zeby nigdy wiecej nie pracowac w warsztacie samochodowym w smarach, bródzie, syfie i zimnie </p>
+        <article>
+          <h3 class="introduction">Ucze sie JS</h3>
+          <p class="introduction__description">
+            Ucze sie JS zeby nigdy wiecej nie pracowac w warsztacie samochodowym
+            w smarach, bródzie, syfie i zimnie
+          </p>
         </article>
-    </section>
-    <footer>    
-        Strona Dariusza- przyszłego programisty
-    </footer>
-    <script src="main.js"></script>
+      </section>
+      <footer>Strona Dariusza- przyszłego programisty</footer>
+      <script src="main.js"></script>
     </main>
-    
-
-
-</body>
-
+  </body>
 </html>
