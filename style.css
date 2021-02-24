@@ -1,8 +1,17 @@
 .introduction-block {
   width: 1000px;
+  margin: 0 auto;
 }
-.introduction-block {
-  color: blue;
+.introduction-block__description {
+  color: rgb(4, 4, 88);
   padding: 8px;
   margin: 0 auto;
+  overflow: auto;
+  border: 3px rgb(218, 53, 53) solid;
+  border-radius: 4px;
+}
+
+.introduction-block--heading {
+  margin: 5px auto;
+  width: 300px;
 }
