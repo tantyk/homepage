@@ -43,6 +43,9 @@
 }
 .navigation {
   background-color: #bef6fa;
+  padding: 20px;
+  border: 2px #ec78ec solid;
+  border-radius: 15px;
 }
 
 .navigation__link {
