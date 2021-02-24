@@ -78,3 +78,9 @@
   border-radius: 4px;
   text-align: center;
 }
+
+.progress__description--js {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
