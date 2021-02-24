@@ -1,17 +1,77 @@
-.introduction-block {
+.wrapper {
   width: 1000px;
-  margin: 0 auto;
 }
-.introduction-block__description {
+.img-centered {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.introduction__description {
   color: rgb(4, 4, 88);
   padding: 8px;
+  width: 800px;
   margin: 0 auto;
   overflow: auto;
   border: 3px rgb(218, 53, 53) solid;
   border-radius: 4px;
+  text-align: center;
 }
 
-.introduction-block--heading {
+.introduction-heading {
   margin: 5px auto;
   width: 300px;
+  text-align: center;
+}
+
+.introduction__subtitle {
+  margin: 10px auto;
+  width: 300px;
+  text-align: center;
+}
+
+.introduction__title {
+  margin: 10px auto;
+  width: 200px;
+  text-align: center;
+}
+
+.footer {
+  border: 1px #1b1414 dashed;
+  width: 300px;
+  margin: 20px 0px 20px 700px;
+}
+.navigation {
+  background-color: #bef6fa;
+}
+
+.navigation__link {
+  color: #ca1111;
+}
+
+.navigation__link--homepage {
+  color: rgb(23, 139, 0);
+}
+
+.progress {
+  margin: 5px auto;
+  width: 300px;
+  text-align: center;
+}
+
+.progress__title {
+  margin: 10px auto;
+  width: 200px;
+  text-align: center;
+}
+
+.progress__description {
+  color: rgb(4, 4, 88);
+  padding: 8px;
+  width: 800px;
+  margin: 15px auto;
+  overflow: auto;
+  border: 3px rgb(218, 53, 53) solid;
+  border-radius: 4px;
+  text-align: center;
 }
