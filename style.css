@@ -18,16 +18,10 @@ body {
     rgba(0, 212, 255, 1) 92%
   );
   background-position: center center;
+  margin:0 auto;
 }
 
-.about {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 60px 1fr;
-  grid-template-areas:
-    "header header"
-    "article article";
-}
+
 
 .about__item {
   grid-area: article;
@@ -83,6 +77,9 @@ body {
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
+  max-width:800px;
+  margin:0 auto;
+
 }
 
 .navigation__link {
@@ -113,4 +110,15 @@ body {
   border: 3px rgb(218, 53, 53) solid;
   border-radius: 4px;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60px 1fr;
+    grid-template-areas:
+      "header header"
+      "article article";
+  
 }
